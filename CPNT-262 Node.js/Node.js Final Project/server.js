@@ -1,13 +1,23 @@
 // Import required libraries
 const express = require("express");
-const path = require('path');
+const path = require("path");
 const bodyParser = require("body-parser")
+const mysql = require("mysql")
 
 // Set up Express.js
 const app = express();
 
-// Msc. site & server configuration
+// Initialize server variables
 const port = 8000;
+var server = null;
+var con = mysql.createConnection({
+    host: "localhost",
+    user: "Admin",
+    password: "Password123",
+    database: "travelexperts"
+});
+
+// Misc. site configuration
 const brand = "Travel Experts";
 const contacts =
     [
@@ -29,8 +39,6 @@ const contacts =
         }
     ]
 
-// Initialize server variable
-var server = null;
 
 // Start the server and listen on the chosen port
 function startServer(_port) {
@@ -97,10 +105,41 @@ app.get("/thanks", (req, res) => {
     });
 });
 
+app.get("/bookings", (req, res) => {
+    con.connect(function (err) {
+        if (err) throw err;
+        var sql =
+            "SELECT customers.CustFirstName, customers.CustLastName, bookings.BookingNo " +
+            "FROM customers JOIN bookings " +
+            "ON customers.CustomerId = bookings.CustomerId";
+        con.query(sql,
+            (err, result)=> {
+                if (err) throw err;
+                console.log(result);
+                res.render("bookings", {
+                    _title: "Thank You!",
+                    _brand: brand,
+                    bookings: result
+                })
+                con.end(function (err) {
+                    if (err) throw err;
+                });
+            }
+        );
+    });
+    
+})
+
 // Render error page on 404 error.
 app.use((req, res, next) => {
-    res.status(404).render("404", { _title: "404 Page Not Found", _brand: brand })
+    res.status(404).render("404", {
+        _title: "404 Page Not Found",
+        _brand: brand
+    })
 })
+
+
+
 
 startServer(port);
 
