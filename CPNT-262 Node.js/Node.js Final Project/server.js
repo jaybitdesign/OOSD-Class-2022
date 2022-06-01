@@ -39,10 +39,9 @@ const contacts =
         }
     ]
 
-
-// Start the server and listen on the chosen port
+// Start the server and listen on the chosen {_port}
 function startServer(_port) {
-    server = app.listen(_port, () => { console.log("Server started on port " + _port); });
+    server = app.listen(_port, () => { console.log("Server started on port: " + _port); });
 }
 
 // Express middleware for parsing bodies from URL
@@ -57,7 +56,7 @@ app.use(express.static("public"));
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "pug");
 
-// Render main index
+// Render the main index view template
 app.get(["/", "/index"], (req, res) => {
     res.render("index", {
         _title: "Travel Experts",
@@ -84,7 +83,7 @@ app.get("/register", (req, res) => {
     });
 })
 
-// Catch the register form and redirect it to thank you page
+// Catch the register form and redirect it to thank you view template
 app.post("/register", (req, res) => {
     res.redirect(
         "/thanks?" +
@@ -94,7 +93,7 @@ app.post("/register", (req, res) => {
     );
 })
 
-// Catch the redirect data and render a new page
+// Catch the redirect data and render the thank you view template
 app.get("/thanks", (req, res) => {
     res.render("thanks", {
         _title: "Thank You!",
@@ -105,24 +104,44 @@ app.get("/thanks", (req, res) => {
     });
 });
 
+// Render all bookigns from the SQL query
 app.get("/bookings", (req, res) => {
+
+    // Open a connection to our MYSQL server
     con.connect(function (err) {
+
+        // Catch any errors from the connect callback
         if (err) throw err;
+
+        // Define SQL statement
         var sql =
             "SELECT customers.CustFirstName, customers.CustLastName, bookings.BookingNo " +
             "FROM customers JOIN bookings " +
             "ON customers.CustomerId = bookings.CustomerId";
+
+        // Open a new query from our MYSQL server
         con.query(sql,
             (err, result)=> {
+
+                // Catch any errors from the query callback
                 if (err) throw err;
+
+                // Log the query result to console
                 console.log(result);
+
+                // Render the bookings view template with the {result} passed in as {data}
                 res.render("bookings", {
-                    _title: "Thank You!",
+                    _title: "Bookings",
                     _brand: brand,
-                    bookings: result
+                    data: result
                 })
+
+                // End the connection to our MYSQL server
                 con.end(function (err) {
+
+                    //Catch any errors from the end connection callback
                     if (err) throw err;
+
                 });
             }
         );
@@ -138,9 +157,7 @@ app.use((req, res, next) => {
     })
 })
 
-
-
-
+// Start the server on {port}
 startServer(port);
 
 
