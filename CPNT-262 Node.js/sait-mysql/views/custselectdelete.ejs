@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head><title>Customer Delete Selection</title></head>
+	<body>
+		<h1>Please select a customer to delete</h1>
+		<form method="get" action="/get-delete">
+			Customer: <select name="custid" onchange="this.form.submit();">
+				<option value="">Select a customer to delete</option>
+		<%	result.forEach((customer)=>{ %>
+			<option value="<%= customer.CustomerId %>"><%= customer.CustFirstName %> <%= customer.CustLastName %></option>
+		<%	}); %>
+			</select>
+		</form>
+	</body>
+</html>

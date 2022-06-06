@@ -19,14 +19,24 @@ nav.navbar.navbar-dark.navbar-expand-md.bg-primary
                     a.nav-link.active(href='contact') Contact
                 li.nav-item
                     a.nav-link.active(href='register') Register
-section.contact-clean
-    form(id="register" method='POST' action="/register")
-        h2.text-center Register Now
-        input#name.form-control(type='text' name='fullname' placeholder='Full Name' required='' autofocus='')
-        input#email.form-control.mt-3(type='email' placeholder='Email' name='email' required='')
-        input#postal.form-control.mt-3(type='text' name='postal' placeholder='Postal Code (A1A 1A1)' pattern='[a-zA-Z][0-9][a-zA-Z](-| |)[0-9][a-zA-Z][0-9]' required)
-        .mb-3
-            button#confirm.btn.btn-primary(type='submit') Submit
+section.contact-clean.d-flex.justify-content-center
+    div
+        table(border)
+            tr
+                th ID
+                th Name
+                th Email
+                th Postal
+                th Password
+                th Agent ID
+            each customer in result
+                tr
+                    td #{customer.CustomerId}
+                    td #{customer.CustomerName}
+                    td #{customer.CustomerEmail}
+                    td #{customer.CustomerPostal}
+                    td #{customer.CustomerPassword}
+                    td #{customer.AgentId}
 footer.footer-basic.bg-light
     ul.list-inline
         li.list-inline-item

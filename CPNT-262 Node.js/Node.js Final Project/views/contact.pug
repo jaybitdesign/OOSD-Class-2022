@@ -23,36 +23,17 @@ section.photo-gallery.pt-5.mt-4
     .container
         .intro
             h1.text-center.mb-3 Meet Our Team
-            p.text-center
-                | Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.
+            p.text-center | Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.
         .row.photos(data-bss-baguettebox='')
-            .col-sm-6.col-md-4.item
-                a(href='mailto:' + contactA.contactEmail)
-                    img.img-fluid.mb-3(src=contactA.contactPhoto)
-                h3 #{contactA.contactName}
-                ul
-                    li #{contactA.contactPhone}
-                div
-                    a.btn.btn-primary(role='button' href='mailto:' + contactA.contactEmail) Contact Me
-                    a.btn.btn-link(role='button' href='mailto:' + contactA.contactEmail) #{contactA.contactEmail}
-            .col-sm-6.col-md-4.item
-                a(href='mailto:' + contactB.contactEmail)
-                    img.img-fluid.mb-3(src=contactB.contactPhoto)
-                h3 #{contactB.contactName}
-                ul
-                    li #{contactB.contactPhone}
-                div
-                    a.btn.btn-primary(role='button' href='mailto:' + contactB.contactEmail) Contact Me
-                    a.btn.btn-link(role='button' href='mailto:' + contactB.contactEmail) #{contactB.contactEmail}
-            .col-sm-6.col-md-4.item
-                a(href='mailto:' + contactC.contactEmail)
-                    img.img-fluid.mb-3(src=contactC.contactPhoto)
-                h3 #{contactC.contactName}
-                ul
-                    li #{contactC.contactPhone}
-                div
-                    a.btn.btn-primary(role='button' href='mailto:' + contactC.contactEmail) Contact Me
-                    a.btn.btn-link(role='button' href='mailto:' + contactC.contactEmail) #{contactC.contactEmail}
+            each agent in result
+                .col-sm-6.col-md-4.item
+                    a(href='mailto:' + agent.AgentEmail)
+                        img.img-fluid.mb-3(src=agent.AgentPhoto)
+                    h3 #{agent.AgentFirstName} #{agent.AgentLastName}
+                    ul
+                        li #{agent.AgentBusPhone}
+                    div
+                        a.btn.btn-primary(role='button' href='mailto:' + agent.AgentEmail) Contact Me
 footer.footer-basic.bg-light
     ul.list-inline
         li.list-inline-item
