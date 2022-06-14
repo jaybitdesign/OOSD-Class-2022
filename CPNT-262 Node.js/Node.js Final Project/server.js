@@ -227,39 +227,27 @@ app.get("/update-customer-get", (req, res) => {
         "SELECT * " +
         "FROM customers " +
         "WHERE CustomerID=?";
-    var agentSQL =
-        "SELECT AgentID, AgentFirstName, AgentLastName " +
-        "FROM AGENTS";
 
-    // Open a new MYSQL query with our SQL statement
-    con.query(agentSQL, (err, _agentResult) => {
+    // Store the CustomerId from the query in a variable
+    var customerId = req.query.CustomerId;
+
+    con.query({ sql: customerSQL, values: [customerId] }, (err, result) => {
 
         // Catch any errors from the query callback
         if (err) throw err;
+
         // Log the query result to console
-        console.log(_agentResult);
+        console.log(result);
 
-        // Store the CustomerId from the query in a variable
-        var customerId = req.query.CustomerId;
-
-        con.query({ sql: customerSQL, values: [customerId] }, (err, result) => {
-
-            // Catch any errors from the query callback
-            if (err) throw err;
-
-            // Log the query result to console
-            console.log(result);
-
-            // Render the update-customer view template with {customersResult} and {agentResult}
-            res.render("update-customer", {
-                _title: "Update Customer",
-                _brand: brand,
-                customers: result,
-                agents: _agentResult
-            })
-        });
+        // Render the update-customer view template with {customersResult} and {agentResult}
+        res.render("update-customer", {
+            _title: "Update Customer",
+            _brand: brand,
+            customers: result,
+        })
     });
-})
+});
+
 
 // Render the update-customer-post view template
 app.post("/update-customer-post", (req, res) => {
@@ -267,7 +255,7 @@ app.post("/update-customer-post", (req, res) => {
     // Define SQL statement(s)
     var sql =
         "UPDATE `customers` " +
-        "SET `CustomerName`=?,`CustomerPostal`=?,`CustomerPassword`=?,`CustomerEmail`=?,`AgentId`=? " +
+        "SET `CustomerName`=?,`CustomerPostal`=?,`CustomerPassword`=?,`CustomerEmail`=? " +
         "WHERE `CustomerId`=?";
 
     // Store values from the URL body in an array
@@ -276,7 +264,6 @@ app.post("/update-customer-post", (req, res) => {
         req.body.CustomerPostal,
         req.body.CustomerPassword,
         req.body.CustomerEmail,
-        req.body.AgentId,
         req.body.CustomerId
     ];
 
@@ -293,7 +280,7 @@ app.post("/update-customer-post", (req, res) => {
         console.log("Updated " + result.affectedRows + " row(s).");
 
         // Display the amount of rows updated
-        if (result.affectedRows) { res.status(200).send("Updated " + result.affectedRows + " row(s)."); }
+        if (result.affectedRows) { res.status(200).redirect("display-customer-get-all"); }
 
         // Display an error
         else { res.status(200).send("Update failed!"); }
@@ -383,7 +370,7 @@ app.post("/delete-customer-post", (req, res) => {
         console.log(result);
 
         // Display the amount of rows deleted
-        if (result.affectedRows) { res.status(200).send(result.affectedRows + " row(s) deleted"); }
+        if (result.affectedRows) { res.status(200).redirect("display-customer-get-all"); }
 
         // Display an error
         else { res.status(200).send("Delete failed!"); }
@@ -394,21 +381,10 @@ app.post("/delete-customer-post", (req, res) => {
 // Render the insert-customer view template
 app.get("/insert-customer", (req, res) => {
 
-    // Open a new MYSQL query with our SQL statement
-    con.query("SELECT AgentId, AgentFirstName, AgentLastName FROM agents", (err, result) => {
-
-        // Catch any errors from the query callback
-        if (err) throw err;
-
-        // Log the query result to console
-        console.log(result);
-
-        // Render the insert-customer view template with {result}
-        res.render("insert-customer", {
-            _title: "Insert Customer",
-            _brand: brand,
-            result: result
-        });
+    // Render the insert-customer view template with {result}
+    res.render("insert-customer", {
+        _title: "Insert Customer",
+        _brand: brand
     });
 });
 
@@ -418,16 +394,15 @@ app.post("/insert-customer-post", (req, res) => {
     // Define SQL statement(s)
     var insertSQL =
         "INSERT INTO customers" +
-        "(CustomerName, CustomerPostal, CustomerEmail, CustomerPassword, AgentID) " +
-        "VALUES (?,?,?,?,?)";
+        "(CustomerName, CustomerPostal, CustomerEmail, CustomerPassword) " +
+        "VALUES (?,?,?,?)";
 
     // Store values from the URL body in an array
     var values = [
         req.body.CustomerName,
         req.body.CustomerPostal,
         req.body.CustomerEmail,
-        req.body.CustomerPassword,
-        req.body.AgentId
+        req.body.CustomerPassword
     ];
 
     // Open a new MYSQL query with our SQL statement
@@ -440,7 +415,7 @@ app.post("/insert-customer-post", (req, res) => {
         console.log(result);
 
         // Display the amount of rows inserted
-        if (result.affectedRows) { res.status(200).send(result.affectedRows + " row(s) inserted!"); }
+        if (result.affectedRows) { res.status(200).redirect("display-customer-get-all"); }
         else { res.status(200).send("Insert failed!"); }
 
     });

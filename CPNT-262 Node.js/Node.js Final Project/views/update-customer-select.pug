@@ -34,8 +34,8 @@ section.contact-clean
         h2.text-center Update Customer
         select.form-select.my-3(name="CustomerId")
             option(value="") Select a customer
-                each customer in result
-                    option(value=customer.CustomerId) #{customer.CustomerName}
+            each customer in result
+                option(value=customer.CustomerId) #{customer.CustomerName}
         button#confirm.btn.btn-primary(type='submit') Submit
 footer.footer-basic.bg-light
     ul.list-inline
@@ -45,7 +45,7 @@ footer.footer-basic.bg-light
             a(href='contact') Contact
         li.list-inline-item
             a(href='register') Register
-    p.copyright James Buchanan &copy; 2022
+    p.copyright James B, Hilmi AH &copy; 2022
     p.copyright #{_brand}
 script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js')
 script(src='https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js')
