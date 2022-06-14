@@ -122,6 +122,77 @@ app.get("/bookings", (req, res) => {
     });
 })
 
+// Render the booking view template
+app.get("/booking", (req, res) => {
+
+    // Define SQL statement(s)
+    var customerSQL = "SELECT CustomerId, CustomerName from customers";
+    var packageSQL = "SELECT PackageId, PackageName, PackageDesc FROM packages WHERE PackageId=?";
+
+    // Open a new MYSQL query with our SQL statement
+    con.query(customerSQL, (err, customers) => {
+
+        // Catch any errors from the query callback
+        if (err) throw err;
+
+        // Log the query result to console
+        console.log(customers);
+
+        // Store the CustomerId from the query in a variable
+        var packageId = req.query.packageId;
+
+        con.query({ sql: packageSQL, values: [packageId] }, (err, packages) => {
+
+            // Catch any errors from the query callback
+            if (err) throw err;
+
+            // Log the query result to console
+            console.log(packages);
+
+            // Render the update-customer view template with {customersResult} and {agentResult}
+            res.render("booking", {
+                _title: "New Booking",
+                _brand: brand,
+                customers: customers,
+                packages: packages
+            })
+        });
+    });
+});
+
+// Render the insert-customer-post view template
+app.post("/booking-post", (req, res) => {
+
+    // Define SQL statement(s)
+    var insertSQL =
+        "INSERT INTO bookings" +
+        "(BookingDate, CustomerId, PackageId) " +
+        "VALUES (?,?,?)";
+
+    // Store values from the URL body in an array
+    var values = [
+        new Date(),
+        req.body.CustomerId,
+        req.body.PackageId
+    ];
+
+    // Open a new MYSQL query with our SQL statement
+    con.query(insertSQL, values, (err, result) => {
+
+        // Catch any errors from the query callback
+        if (err) throw err;
+
+        // Log the query result to console
+        console.log(result);
+
+        // Display the amount of rows inserted
+        if (result.affectedRows) { res.status(200).redirect("bookings") }
+
+        else { res.status(200).send("Insert failed!"); }
+
+    });
+});
+
 // Render the display-customer view template
 app.get("/display-customer", (req, res) => {
 
@@ -247,7 +318,6 @@ app.get("/update-customer-get", (req, res) => {
         })
     });
 });
-
 
 // Render the update-customer-post view template
 app.post("/update-customer-post", (req, res) => {
@@ -416,77 +486,6 @@ app.post("/insert-customer-post", (req, res) => {
 
         // Display the amount of rows inserted
         if (result.affectedRows) { res.status(200).redirect("display-customer-get-all"); }
-        else { res.status(200).send("Insert failed!"); }
-
-    });
-});
-
-// Render the booking view template
-app.get("/booking", (req, res) => {
-
-    // Define SQL statement(s)
-    var customerSQL = "SELECT CustomerId, CustomerName from customers";
-    var packageSQL = "SELECT PackageId, PackageName, PackageDesc FROM packages WHERE PackageId=?";
-
-    // Open a new MYSQL query with our SQL statement
-    con.query(customerSQL, (err, customers) => {
-
-        // Catch any errors from the query callback
-        if (err) throw err;
-
-        // Log the query result to console
-        console.log(customers);
-
-        // Store the CustomerId from the query in a variable
-        var packageId = req.query.packageId;
-
-        con.query({ sql: packageSQL, values: [packageId] }, (err, packages) => {
-
-            // Catch any errors from the query callback
-            if (err) throw err;
-
-            // Log the query result to console
-            console.log(packages);
-
-            // Render the update-customer view template with {customersResult} and {agentResult}
-            res.render("booking", {
-                _title: "New Booking",
-                _brand: brand,
-                customers: customers,
-                packages: packages
-            })
-        });
-    });
-});
-
-// Render the insert-customer-post view template
-app.post("/booking-post", (req, res) => {
-
-    // Define SQL statement(s)
-    var insertSQL =
-        "INSERT INTO bookings" +
-        "(BookingDate, CustomerId, PackageId) " +
-        "VALUES (?,?,?)";
-
-    // Store values from the URL body in an array
-    var values = [
-        new Date(),
-        req.body.CustomerId,
-        req.body.PackageId
-    ];
-
-    // Open a new MYSQL query with our SQL statement
-    con.query(insertSQL, values, (err, result) => {
-
-        // Catch any errors from the query callback
-        if (err) throw err;
-
-        // Log the query result to console
-        console.log(result);
-
-        // Display the amount of rows inserted
-        if (result.affectedRows) { res.status(200).redirect("bookings") }
-
         else { res.status(200).send("Insert failed!"); }
 
     });
