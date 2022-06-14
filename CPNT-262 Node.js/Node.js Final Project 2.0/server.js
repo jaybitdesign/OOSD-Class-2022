@@ -4,7 +4,6 @@ const path = require("path");
 const bodyParser = require("body-parser")
 const mysql = require("mysql")
 
-
 // Set up Express.js
 const app = express();
 
@@ -36,7 +35,7 @@ function startServer(_port) {
     server = app.listen(_port, () => { console.log("Server started on port: " + _port); })
 }
 
-// Render the main index view template
+// Render the main index view template from the database  
 app.get(["/", "/index"], (req, res) => {
 
 
@@ -62,23 +61,34 @@ app.get(["/", "/index"], (req, res) => {
         });
     });
 })
-// render agencies view template from db    
+
+// Render agencies view template from the database
 app.get("/agencies", (req, res) => {
+
+    // Define SQL statement(s)
     var agenciesSQL =
-    "SELECT * " + 
-    "FROM agencies";
+        "SELECT * " +
+        "FROM agencies";
+ 
+    // Open a new MYSQL query with our SQL statement
     con.query(agenciesSQL, (err, result) => {
+
+        // Catch any errors from the query callback
         if (err) throw err;
+        
+        // Log the query result to console
         console.log(result)
+
+        // Render the agencies view template with the {result} passed in
         res.render("agencies", {
             _title: "Agencies",
             _brand: brand,
             result: result
         })
     })
-
 })
-// Render contact view template
+
+// Render contact view template from the database
 app.get("/contact", (req, res) => {
 
     // Define SQL statement(s)
@@ -115,7 +125,7 @@ app.get("/thanks", (req, res) => {
     });
 });
 
-// Render the bookings view template
+// Render the bookings view template from the database
 app.get("/bookings", (req, res) => {
 
     // Define SQL statement(s)
@@ -139,7 +149,7 @@ app.get("/bookings", (req, res) => {
     });
 })
 
-// Render the booking view template
+// Render the booking view template from the database
 app.get("/booking", (req, res) => {
 
     // Define SQL statement(s)
@@ -177,7 +187,7 @@ app.get("/booking", (req, res) => {
     });
 });
 
-// Render the insert-customer-post view template
+// Render the insert-customer-post view template from the database
 app.post("/booking-post", (req, res) => {
 
     // Define SQL statement(s)
@@ -210,7 +220,7 @@ app.post("/booking-post", (req, res) => {
     });
 });
 
-// Render the display-customer view template
+// Render the display-customer view template from the database
 app.get("/display-customer", (req, res) => {
 
     // Open a new MYSQL query with our SQL statement
@@ -232,7 +242,7 @@ app.get("/display-customer", (req, res) => {
     });
 });
 
-// Render the display-customer-get view template
+// Render the display-customer-get view template from the database
 app.get("/display-customer-get", (req, res) => {
 
     // Store CustomerId from the query to a variable
@@ -263,7 +273,7 @@ app.get("/display-customer-get", (req, res) => {
     });
 });
 
-// Render the display-customer-get-all view template
+// Render the display-customer-get-all view template from the database
 app.get("/display-customer-get-all", (req, res) => {
 
     // Open a new MYSQL query with our SQL statement
@@ -285,7 +295,7 @@ app.get("/display-customer-get-all", (req, res) => {
     });
 });
 
-// Render the update-customer view template
+// Render the update-customer view template from the database
 app.get("/update-customer", (req, res) => {
 
     // Open a new MYSQL query with our SQL statement
@@ -307,7 +317,7 @@ app.get("/update-customer", (req, res) => {
     });
 })
 
-// Render the update-customer-get view template
+// Render the update-customer-get view template from the database
 app.get("/update-customer-get", (req, res) => {
 
     // Define SQL statement(s)
@@ -319,6 +329,7 @@ app.get("/update-customer-get", (req, res) => {
     // Store the CustomerId from the query in a variable
     var customerId = req.query.CustomerId;
 
+    // Open a new MYSQL query with our SQL statement
     con.query({ sql: customerSQL, values: [customerId] }, (err, result) => {
 
         // Catch any errors from the query callback
@@ -336,7 +347,7 @@ app.get("/update-customer-get", (req, res) => {
     });
 });
 
-// Render the update-customer-post view template
+// Render the update-customer-post view template from the database
 app.post("/update-customer-post", (req, res) => {
 
     // Define SQL statement(s)
@@ -375,7 +386,7 @@ app.post("/update-customer-post", (req, res) => {
     });
 });
 
-// custdelete
+// Render the delete-customer view template from the database
 app.get("/delete-customer", (req, res) => {
 
     // Define SQL statement(s)
@@ -399,7 +410,7 @@ app.get("/delete-customer", (req, res) => {
     });
 });
 
-// Render the delete-customer-get view template
+// Render the delete-customer-get view template from the database
 app.get("/delete-customer-get", (req, res) => {
 
     // Define SQL statement(s)
@@ -438,7 +449,7 @@ app.get("/delete-customer-get", (req, res) => {
     });
 });
 
-// Render the delete-customer-post view template
+// Render the delete-customer-post view template from the database
 app.post("/delete-customer-post", (req, res) => {
 
     // Define SQL statement(s)
@@ -475,7 +486,7 @@ app.get("/insert-customer", (req, res) => {
     });
 });
 
-// Render the insert-customer-post view template
+// Render the insert-customer-post view template from the database
 app.post("/insert-customer-post", (req, res) => {
 
     // Define SQL statement(s)
@@ -508,7 +519,7 @@ app.post("/insert-customer-post", (req, res) => {
     });
 });
 
-// Render error view template on 404 error
+// Render the error view template on 404 error
 app.use((req, res, next) => {
     res.status(404).render("404", {
         _title: "404 Page Not Found",
