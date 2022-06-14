@@ -19,7 +19,7 @@ app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "pug");
 
 // Misc. site configuration
-const brand = "Travel Experts 2.0";
+const brand = "Travel Experts";
 
 // Initialize server variables
 const port = 8000;
