@@ -5,46 +5,54 @@ head
     title #{_title}
     link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css')
     link(rel='stylesheet' href='/css/styles.min.css')
-nav.navbar.navbar-dark.navbar-expand-xl.bg-primary
-    .container-fluid
-        a.navbar-brand(href='/') #{_brand}
-        button.navbar-toggler(data-bs-toggle='collapse' data-bs-target='#navcol-1')
-            span.visually-hidden Toggle navigation
-            span.navbar-toggler-icon
-        #navcol-1.collapse.navbar-collapse
-            ul.navbar-nav
-                li.nav-item
-                    a.nav-link.active(href='/') Home
-                li.nav-item
-                    a.nav-link.active(href='contact') Contact Us
-                li.nav-item
-                    a.nav-link.active(href='bookings') View Bookings
-                li.nav-item
-                    a.nav-link.active(href='insert-customer') Register Customer
-                li.nav-item
-                    a.nav-link.active(href='delete-customer') Delete Customer
-                li.nav-item
-                    a.nav-link.active(href='display-customer') Display Customer
-                li.nav-item
-                    a.nav-link.active(href='update-customer') Update Customer
-                li.nav-item
-                    a.nav-link.active(href='display-customer-get-all') Customer List
-section#highlight.highlight-clean(style='background: url("/img/background.jpg");')
-    .container
+
+include includes/navbar.pug
+
+section#highlight.highlight-clean
+    .container.py-5.mt-4
         .intro
             .text-center
                 img.img-fluid.d-inline-block.mb-3(src='/img/flag.png' style='max-height: 44px;')
                 h1.text-center.d-inline-block.px-2.mb-0 Welcome To #{_brand}
-            p.text-center
-                | Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.
+            p.text-center.lead Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam et iste blanditiis voluptatibus fuga.
         .text-center
-            a.btn.btn-primary.btn-lg(role='button' href='contact') Contact Us
-            a.btn.btn-link.btn-lg(role='button' href='register') Register Now
-section.photo-gallery.mt-5
+            a.btn.btn-primary.btn-lg(role='button' href='#packages') View Packages
+            a.btn.btn-link.btn-lg(role='button' href='insert-customer') Register Now
+.container.py-4.py-xl-5
+    .row.row-cols-1.row-cols-md-2
+        .col
+            img.rounded.w-100.h-100.fit-cover(style='min-height: 300px;' src='img/splash.jpg')
+        .col.d-flex.flex-column.justify-content-center.p-4
+            .text-center.text-md-start.d-flex.flex-column.align-items-center.align-items-md-start.mb-5
+                .bs-icon-md.bs-icon-rounded.bs-icon-primary.d-flex.flex-shrink-0.justify-content-center.align-items-center.d-inline-block.mb-3.bs-icon.md
+                    svg.bi.bi-hourglass-split(xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' fill='currentColor' viewbox='0 0 16 16')
+                        path(d='M2.5 15a.5.5 0 1 1 0-1h1v-1a4.5 4.5 0 0 1 2.557-4.06c.29-.139.443-.377.443-.59v-.7c0-.213-.154-.451-.443-.59A4.5 4.5 0 0 1 3.5 3V2h-1a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-1v1a4.5 4.5 0 0 1-2.557 4.06c-.29.139-.443.377-.443.59v.7c0 .213.154.451.443.59A4.5 4.5 0 0 1 12.5 13v1h1a.5.5 0 0 1 0 1h-11zm2-13v1c0 .537.12 1.045.337 1.5h6.326c.216-.455.337-.963.337-1.5V2h-7zm3 6.35c0 .701-.478 1.236-1.011 1.492A3.5 3.5 0 0 0 4.5 13s.866-1.299 3-1.48V8.35zm1 0v3.17c2.134.181 3 1.48 3 1.48a3.5 3.5 0 0 0-1.989-3.158C8.978 9.586 8.5 9.052 8.5 8.351z')
+                div
+                    h4 Fast &amp; Easy Registration
+                    p.lead Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, explicabo eius architecto rerum amet reiciendis deserunt assumenda soluta non aspernatur tempora perspiciatis alias! Quasi nihil accusantium illo tempora neque adipisci.
+                    a(href='insert-customer') Register Now
+            .text-center.text-md-start.d-flex.flex-column.align-items-center.align-items-md-start.mb-5
+                .bs-icon-md.bs-icon-rounded.bs-icon-primary.d-flex.flex-shrink-0.justify-content-center.align-items-center.d-inline-block.mb-3.bs-icon.md
+                    svg.bi.bi-person-circle(xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' fill='currentColor' viewbox='0 0 16 16')
+                        path(d='M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z')
+                        path(fill-rule='evenodd' d='M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z')
+                div
+                    h4 Expert Travel Agents
+                    p.lead Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus at libero corrupti voluptatem eligendi. Tempore, maiores minus? Aut ex, inventore incidunt possimus natus debitis consequuntur labore aperiam sit impedit tenetur?
+                    a(href='contact') Meet Our Agents
+            .text-center.text-md-start.d-flex.flex-column.align-items-center.align-items-md-start
+                .bs-icon-md.bs-icon-rounded.bs-icon-primary.d-flex.flex-shrink-0.justify-content-center.align-items-center.d-inline-block.mb-3.bs-icon.md
+                    svg.bi.bi-cart4(xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' fill='currentColor' viewbox='0 0 16 16')
+                        path(d='M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z')
+                div
+                    h4 Quick Package Checkout
+                    p.lead Lorem ipsum dolor sit amet consectetur adipisicing elit. Est corporis atque tenetur iste velit! Ea saepe accusantium aliquam quas expedita tempore tempora doloribus sunt porro sequi, dicta a enim iure.
+                    a(href='#packages') Browse Packages
+section#packages.photo-gallery.mt-5
     .container
         .intro
             h1.text-center.mb-3 View Our Packages
-            p.text-center | Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.
+            p.text-center Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam et iste blanditiis voluptatibus fuga.
         .row.photos(data-bss-baguettebox='')
             each pack in result
                 .col-sm-6.col-md-4.item
@@ -56,16 +64,5 @@ section.photo-gallery.mt-5
                         p $#{pack.PackageBasePrice}CAD
                     div
                         a.btn.btn-primary(href='/booking?packageId=' + pack.PackageId role='button') Book Online Now
-footer.footer-basic.bg-light
-    ul.list-inline
-        li.list-inline-item
-            a(href='index') Home
-        li.list-inline-item
-            a(href='contact') Contact
-        li.list-inline-item
-            a(href='register') Register
-    p.copyright James B, Hilmi AH &copy; 2022
-    p.copyright #{_brand}
-script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js')
-script(src='https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js')
-script(src='/js/script.min.js')
+
+include includes/footer.pug

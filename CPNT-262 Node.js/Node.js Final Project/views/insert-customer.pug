@@ -5,30 +5,9 @@ head
     title #{_title}
     link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css')
     link(rel='stylesheet' href='/css/styles.min.css')
-nav.navbar.navbar-dark.navbar-expand-xl.bg-primary
-    .container-fluid
-        a.navbar-brand(href='/') #{_brand}
-        button.navbar-toggler(data-bs-toggle='collapse' data-bs-target='#navcol-1')
-            span.visually-hidden Toggle navigation
-            span.navbar-toggler-icon
-        #navcol-1.collapse.navbar-collapse
-            ul.navbar-nav
-                li.nav-item
-                    a.nav-link.active(href='/') Home
-                li.nav-item
-                    a.nav-link.active(href='contact') Contact Us
-                li.nav-item
-                    a.nav-link.active(href='bookings') View Bookings
-                li.nav-item
-                    a.nav-link.active(href='insert-customer') Register Customer
-                li.nav-item
-                    a.nav-link.active(href='delete-customer') Delete Customer
-                li.nav-item
-                    a.nav-link.active(href='display-customer') Display Customer
-                li.nav-item
-                    a.nav-link.active(href='update-customer') Update Customer
-                li.nav-item
-                    a.nav-link.active(href='display-customer-get-all') Customer List
+
+include includes/navbar.pug
+
 section.contact-clean
     form(id="register" method='POST' action="/insert-customer-post")
         h2.text-center Register Customer
@@ -36,17 +15,6 @@ section.contact-clean
         input#email.form-control.mt-3(type='email' placeholder='Email' name='CustomerEmail' required='')
         input#postal.form-control.mt-3(type='text' name='CustomerPostal' placeholder='Postal Code (A1A 1A1)' pattern='[a-zA-Z][0-9][a-zA-Z](-| |)[0-9][a-zA-Z][0-9]' required)
         input#name.form-control.mt-3(type='text' name='CustomerPassword' placeholder='Password' required='')
-        button#confirm.btn.btn-primary(type='submit') Submit
-footer.footer-basic.bg-light
-    ul.list-inline
-        li.list-inline-item
-            a(href='index') Home
-        li.list-inline-item
-            a(href='contact') Contact
-        li.list-inline-item
-            a(href='register') Register
-    p.copyright James B, Hilmi AH &copy; 2022
-    p.copyright #{_brand}
-script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js')
-script(src='https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js')
-script(src='/js/script.min.js')
+        button#confirm.btn.btn-primary(type='submit') Register
+
+include includes/footer.pug
