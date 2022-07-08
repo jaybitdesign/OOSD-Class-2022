@@ -1,0 +1,17 @@
+C:\Users\james\Documents\GitHub\class2022\Day6\Day6Excercise2\Day6Excercise2\bin\Debug\net6.0-windows\Day6Excercise2.exe
+C:\Users\james\Documents\GitHub\class2022\Day6\Day6Excercise2\Day6Excercise2\bin\Debug\net6.0-windows\Day6Excercise2.deps.json
+C:\Users\james\Documents\GitHub\class2022\Day6\Day6Excercise2\Day6Excercise2\bin\Debug\net6.0-windows\Day6Excercise2.runtimeconfig.json
+C:\Users\james\Documents\GitHub\class2022\Day6\Day6Excercise2\Day6Excercise2\bin\Debug\net6.0-windows\Day6Excercise2.dll
+C:\Users\james\Documents\GitHub\class2022\Day6\Day6Excercise2\Day6Excercise2\bin\Debug\net6.0-windows\Day6Excercise2.pdb
+C:\Users\james\Documents\GitHub\class2022\Day6\Day6Excercise2\Day6Excercise2\obj\Debug\net6.0-windows\Day6Excercise2.csproj.AssemblyReference.cache
+C:\Users\james\Documents\GitHub\class2022\Day6\Day6Excercise2\Day6Excercise2\obj\Debug\net6.0-windows\Day6Excercise2.Form1.resources
+C:\Users\james\Documents\GitHub\class2022\Day6\Day6Excercise2\Day6Excercise2\obj\Debug\net6.0-windows\Day6Excercise2.csproj.GenerateResource.cache
+C:\Users\james\Documents\GitHub\class2022\Day6\Day6Excercise2\Day6Excercise2\obj\Debug\net6.0-windows\Day6Excercise2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\james\Documents\GitHub\class2022\Day6\Day6Excercise2\Day6Excercise2\obj\Debug\net6.0-windows\Day6Excercise2.AssemblyInfoInputs.cache
+C:\Users\james\Documents\GitHub\class2022\Day6\Day6Excercise2\Day6Excercise2\obj\Debug\net6.0-windows\Day6Excercise2.AssemblyInfo.cs
+C:\Users\james\Documents\GitHub\class2022\Day6\Day6Excercise2\Day6Excercise2\obj\Debug\net6.0-windows\Day6Excercise2.csproj.CoreCompileInputs.cache
+C:\Users\james\Documents\GitHub\class2022\Day6\Day6Excercise2\Day6Excercise2\obj\Debug\net6.0-windows\Day6Excercise2.dll
+C:\Users\james\Documents\GitHub\class2022\Day6\Day6Excercise2\Day6Excercise2\obj\Debug\net6.0-windows\refint\Day6Excercise2.dll
+C:\Users\james\Documents\GitHub\class2022\Day6\Day6Excercise2\Day6Excercise2\obj\Debug\net6.0-windows\Day6Excercise2.pdb
+C:\Users\james\Documents\GitHub\class2022\Day6\Day6Excercise2\Day6Excercise2\obj\Debug\net6.0-windows\Day6Excercise2.genruntimeconfig.cache
+C:\Users\james\Documents\GitHub\class2022\Day6\Day6Excercise2\Day6Excercise2\obj\Debug\net6.0-windows\ref\Day6Excercise2.dll

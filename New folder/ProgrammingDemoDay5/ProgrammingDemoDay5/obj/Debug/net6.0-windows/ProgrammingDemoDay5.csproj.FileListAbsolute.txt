@@ -1,0 +1,7 @@
+C:\Users\james\Documents\GitHub\class2022\New folder\ProgrammingDemoDay5\ProgrammingDemoDay5\obj\Debug\net6.0-windows\ProgrammingDemoDay5.csproj.AssemblyReference.cache
+C:\Users\james\Documents\GitHub\class2022\New folder\ProgrammingDemoDay5\ProgrammingDemoDay5\obj\Debug\net6.0-windows\ProgrammingDemoDay5.Form1.resources
+C:\Users\james\Documents\GitHub\class2022\New folder\ProgrammingDemoDay5\ProgrammingDemoDay5\obj\Debug\net6.0-windows\ProgrammingDemoDay5.csproj.GenerateResource.cache
+C:\Users\james\Documents\GitHub\class2022\New folder\ProgrammingDemoDay5\ProgrammingDemoDay5\obj\Debug\net6.0-windows\ProgrammingDemoDay5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\james\Documents\GitHub\class2022\New folder\ProgrammingDemoDay5\ProgrammingDemoDay5\obj\Debug\net6.0-windows\ProgrammingDemoDay5.AssemblyInfoInputs.cache
+C:\Users\james\Documents\GitHub\class2022\New folder\ProgrammingDemoDay5\ProgrammingDemoDay5\obj\Debug\net6.0-windows\ProgrammingDemoDay5.AssemblyInfo.cs
+C:\Users\james\Documents\GitHub\class2022\New folder\ProgrammingDemoDay5\ProgrammingDemoDay5\obj\Debug\net6.0-windows\ProgrammingDemoDay5.csproj.CoreCompileInputs.cache

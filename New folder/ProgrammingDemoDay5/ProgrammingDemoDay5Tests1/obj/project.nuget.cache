@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "dgSpecHash": "mPGbm+o3zKuzTSlLkwy5zKPv061oY5gSItDJr8uZK/ETy4JqnuKH/AbPx1oWC8HpI2NtbNKleHWrdt7CmaZ+tQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\james\\Documents\\GitHub\\class2022\\New folder\\ProgrammingDemoDay5\\ProgrammingDemoDay5Tests1\\ProgrammingDemoDay5Tests1.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package MSTest.TestFramework with version (>= 2.2.8)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 2.2.7 ]",
+      "libraryId": "MSTest.TestFramework",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.NET.Test.Sdk with version (>= 17.1.0)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 16.11.0 ]",
+      "libraryId": "Microsoft.NET.Test.Sdk",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package coverlet.collector with version (>= 3.1.2)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 3.0.3 ]",
+      "libraryId": "coverlet.collector",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package MSTest.TestAdapter with version (>= 2.2.8)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 2.2.7 ]",
+      "libraryId": "MSTest.TestAdapter",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}

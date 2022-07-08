@@ -1,0 +1,6 @@
+C:\Users\hilmi\Source\Repos\ElectricityBill\CustomerDataTests\bin\Debug\net5.0\CoverletSourceRootsMapping
+C:\Users\hilmi\Source\Repos\ElectricityBill\CustomerDataTests\obj\Debug\net5.0\CustomerDataTests.csproj.AssemblyReference.cache
+C:\Users\hilmi\Source\Repos\ElectricityBill\CustomerDataTests\obj\Debug\net5.0\CustomerDataTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hilmi\Source\Repos\ElectricityBill\CustomerDataTests\obj\Debug\net5.0\CustomerDataTests.AssemblyInfoInputs.cache
+C:\Users\hilmi\Source\Repos\ElectricityBill\CustomerDataTests\obj\Debug\net5.0\CustomerDataTests.AssemblyInfo.cs
+C:\Users\hilmi\Source\Repos\ElectricityBill\CustomerDataTests\obj\Debug\net5.0\CustomerDataTests.csproj.CoreCompileInputs.cache

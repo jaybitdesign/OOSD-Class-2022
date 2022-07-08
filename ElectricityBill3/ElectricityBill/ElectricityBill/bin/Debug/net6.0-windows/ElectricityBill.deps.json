@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ElectricityBill/1.0.0": {
+        "dependencies": {
+          "CustomerData": "1.0.0"
+        },
+        "runtime": {
+          "ElectricityBill.dll": {}
+        }
+      },
+      "CustomerData/1.0.0": {
+        "runtime": {
+          "CustomerData.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ElectricityBill/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CustomerData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
