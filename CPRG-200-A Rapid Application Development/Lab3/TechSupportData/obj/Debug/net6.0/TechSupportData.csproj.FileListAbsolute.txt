@@ -1,0 +1,28 @@
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\TechSupportData\bin\Debug\net6.0\TechSupportData.deps.json
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\TechSupportData\bin\Debug\net6.0\TechSupportData.runtimeconfig.json
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\TechSupportData\bin\Debug\net6.0\TechSupportData.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\TechSupportData\bin\Debug\net6.0\TechSupportData.pdb
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\TechSupportData\obj\Debug\net6.0\TechSupportData.csproj.AssemblyReference.cache
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\TechSupportData\obj\Debug\net6.0\TechSupportData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\TechSupportData\obj\Debug\net6.0\TechSupportData.AssemblyInfoInputs.cache
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\TechSupportData\obj\Debug\net6.0\TechSupportData.AssemblyInfo.cs
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\TechSupportData\obj\Debug\net6.0\TechSupportData.csproj.CoreCompileInputs.cache
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\TechSupportData\obj\Debug\net6.0\TechSupportData.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\TechSupportData\obj\Debug\net6.0\refint\TechSupportData.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\TechSupportData\obj\Debug\net6.0\TechSupportData.pdb
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\TechSupportData\obj\Debug\net6.0\TechSupportData.genruntimeconfig.cache
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\TechSupportData\obj\Debug\net6.0\ref\TechSupportData.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\TechSupportData\bin\Debug\net6.0\TechSupportData.deps.json
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\TechSupportData\bin\Debug\net6.0\TechSupportData.runtimeconfig.json
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\TechSupportData\bin\Debug\net6.0\TechSupportData.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\TechSupportData\bin\Debug\net6.0\TechSupportData.pdb
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\TechSupportData\obj\Debug\net6.0\TechSupportData.csproj.AssemblyReference.cache
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\TechSupportData\obj\Debug\net6.0\TechSupportData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\TechSupportData\obj\Debug\net6.0\TechSupportData.AssemblyInfoInputs.cache
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\TechSupportData\obj\Debug\net6.0\TechSupportData.AssemblyInfo.cs
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\TechSupportData\obj\Debug\net6.0\TechSupportData.csproj.CoreCompileInputs.cache
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\TechSupportData\obj\Debug\net6.0\TechSupportData.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\TechSupportData\obj\Debug\net6.0\refint\TechSupportData.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\TechSupportData\obj\Debug\net6.0\TechSupportData.pdb
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\TechSupportData\obj\Debug\net6.0\TechSupportData.genruntimeconfig.cache
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\TechSupportData\obj\Debug\net6.0\ref\TechSupportData.dll

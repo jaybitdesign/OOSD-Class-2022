@@ -1,0 +1,3 @@
+The App.config MUST BE RECONFIGURED to match your database.
+Mine is just "localhost". Your's might be "localhost\SQLEXPRESS"
+The application WILL NOT WORK if this connection string is incorrect.

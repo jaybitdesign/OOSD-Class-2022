@@ -1,0 +1,159 @@
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\ProductMaintenence.exe
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\ProductMaintenence.dll.config
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\ProductMaintenence.deps.json
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\ProductMaintenence.runtimeconfig.json
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\ProductMaintenence.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\ProductMaintenence.pdb
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.csproj.AssemblyReference.cache
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.csproj.GenerateResource.cache
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.AssemblyInfoInputs.cache
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.AssemblyInfo.cs
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.csproj.CoreCompileInputs.cache
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\obj\Debug\net6.0-windows\refint\ProductMaintenence.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.pdb
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.genruntimeconfig.cache
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\obj\Debug\net6.0-windows\ref\ProductMaintenence.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.ProductMaintenance.resources
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.ProductMaintenanceEdit.resources
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\Castle.Core.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\TechSupportData.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\bin\Debug\net6.0-windows\TechSupportData.pdb
+C:\Users\james\Documents\GitHub\class2022\Lab3.2\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.csproj.CopyComplete
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\obj\Debug\net6.0-windows\refint\ProductMaintenence.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.pdb
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\ProductMaintenence.exe
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\ProductMaintenence.dll.config
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\ProductMaintenence.deps.json
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\ProductMaintenence.runtimeconfig.json
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\ProductMaintenence.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\ProductMaintenence.pdb
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\Castle.Core.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\TechSupportData.dll
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\bin\Debug\net6.0-windows\TechSupportData.pdb
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.csproj.AssemblyReference.cache
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.ProductMaintenance.resources
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.ProductMaintenanceEdit.resources
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.csproj.GenerateResource.cache
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.AssemblyInfoInputs.cache
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.AssemblyInfo.cs
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.csproj.CoreCompileInputs.cache
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.csproj.CopyComplete
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.genruntimeconfig.cache
+C:\Users\james\Documents\GitHub\class2022\Lab3\ProductMaintenence\ProductMaintenence\obj\Debug\net6.0-windows\ref\ProductMaintenence.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\ProductMaintenence.exe
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\ProductMaintenence.dll.config
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\ProductMaintenence.deps.json
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\ProductMaintenence.runtimeconfig.json
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\ProductMaintenence.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\ProductMaintenence.pdb
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\Castle.Core.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\TechSupportData.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\bin\Debug\net6.0-windows\TechSupportData.pdb
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.csproj.AssemblyReference.cache
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.ProductMaintenance.resources
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.ProductMaintenanceEdit.resources
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.csproj.GenerateResource.cache
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.AssemblyInfoInputs.cache
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.AssemblyInfo.cs
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.csproj.CoreCompileInputs.cache
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.csproj.CopyComplete
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\obj\Debug\net6.0-windows\refint\ProductMaintenence.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.pdb
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\obj\Debug\net6.0-windows\ProductMaintenence.genruntimeconfig.cache
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab3\ProductMaintenence\obj\Debug\net6.0-windows\ref\ProductMaintenence.dll

@@ -1,0 +1,131 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\james\\Documents\\GitHub\\class2022\\CPRG-200-A Rapid Application Development\\Lab2\\ElectricityBill\\ElectricityBill.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\james\\Documents\\GitHub\\class2022\\CPRG-200-A Rapid Application Development\\Lab2\\CustomerData\\CustomerData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\james\\Documents\\GitHub\\class2022\\CPRG-200-A Rapid Application Development\\Lab2\\CustomerData\\CustomerData.csproj",
+        "projectName": "CustomerData",
+        "projectPath": "C:\\Users\\james\\Documents\\GitHub\\class2022\\CPRG-200-A Rapid Application Development\\Lab2\\CustomerData\\CustomerData.csproj",
+        "packagesPath": "C:\\Users\\james\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\james\\Documents\\GitHub\\class2022\\CPRG-200-A Rapid Application Development\\Lab2\\CustomerData\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\james\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\james\\Documents\\GitHub\\class2022\\CPRG-200-A Rapid Application Development\\Lab2\\ElectricityBill\\ElectricityBill.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\james\\Documents\\GitHub\\class2022\\CPRG-200-A Rapid Application Development\\Lab2\\ElectricityBill\\ElectricityBill.csproj",
+        "projectName": "ElectricityBill",
+        "projectPath": "C:\\Users\\james\\Documents\\GitHub\\class2022\\CPRG-200-A Rapid Application Development\\Lab2\\ElectricityBill\\ElectricityBill.csproj",
+        "packagesPath": "C:\\Users\\james\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\james\\Documents\\GitHub\\class2022\\CPRG-200-A Rapid Application Development\\Lab2\\ElectricityBill\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\james\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\james\\Documents\\GitHub\\class2022\\CPRG-200-A Rapid Application Development\\Lab2\\CustomerData\\CustomerData.csproj": {
+                "projectPath": "C:\\Users\\james\\Documents\\GitHub\\class2022\\CPRG-200-A Rapid Application Development\\Lab2\\CustomerData\\CustomerData.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

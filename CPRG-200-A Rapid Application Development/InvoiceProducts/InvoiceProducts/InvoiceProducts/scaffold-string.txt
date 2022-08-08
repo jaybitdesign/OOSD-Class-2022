@@ -1,0 +1,1 @@
+﻿Scaffold-DbContext -Connection "Data Source=localhost;Initial Catalog=MMABooks;Integrated Security=True" -Provider Microsoft.EntityFrameworkCore.SqlServer -Context MMABooksContext -OutputDir DatabaseModels -DataAnnotations -Force

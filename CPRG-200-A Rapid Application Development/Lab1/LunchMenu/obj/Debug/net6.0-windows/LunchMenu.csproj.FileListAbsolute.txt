@@ -1,0 +1,51 @@
+C:\Users\james\Documents\GitHub\class2022\New folder\LunchMenu\LunchMenu\bin\Debug\net6.0-windows\LunchMenu.exe
+C:\Users\james\Documents\GitHub\class2022\New folder\LunchMenu\LunchMenu\bin\Debug\net6.0-windows\LunchMenu.deps.json
+C:\Users\james\Documents\GitHub\class2022\New folder\LunchMenu\LunchMenu\bin\Debug\net6.0-windows\LunchMenu.runtimeconfig.json
+C:\Users\james\Documents\GitHub\class2022\New folder\LunchMenu\LunchMenu\bin\Debug\net6.0-windows\LunchMenu.dll
+C:\Users\james\Documents\GitHub\class2022\New folder\LunchMenu\LunchMenu\bin\Debug\net6.0-windows\LunchMenu.pdb
+C:\Users\james\Documents\GitHub\class2022\New folder\LunchMenu\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.csproj.AssemblyReference.cache
+C:\Users\james\Documents\GitHub\class2022\New folder\LunchMenu\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.LunchMenuForm.resources
+C:\Users\james\Documents\GitHub\class2022\New folder\LunchMenu\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.csproj.GenerateResource.cache
+C:\Users\james\Documents\GitHub\class2022\New folder\LunchMenu\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\james\Documents\GitHub\class2022\New folder\LunchMenu\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.AssemblyInfoInputs.cache
+C:\Users\james\Documents\GitHub\class2022\New folder\LunchMenu\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.AssemblyInfo.cs
+C:\Users\james\Documents\GitHub\class2022\New folder\LunchMenu\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.csproj.CoreCompileInputs.cache
+C:\Users\james\Documents\GitHub\class2022\New folder\LunchMenu\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.dll
+C:\Users\james\Documents\GitHub\class2022\New folder\LunchMenu\LunchMenu\obj\Debug\net6.0-windows\refint\LunchMenu.dll
+C:\Users\james\Documents\GitHub\class2022\New folder\LunchMenu\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.pdb
+C:\Users\james\Documents\GitHub\class2022\New folder\LunchMenu\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.genruntimeconfig.cache
+C:\Users\james\Documents\GitHub\class2022\New folder\LunchMenu\LunchMenu\obj\Debug\net6.0-windows\ref\LunchMenu.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\LunchMenu\bin\Debug\net6.0-windows\LunchMenu.exe
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\LunchMenu\bin\Debug\net6.0-windows\LunchMenu.deps.json
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\LunchMenu\bin\Debug\net6.0-windows\LunchMenu.runtimeconfig.json
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\LunchMenu\bin\Debug\net6.0-windows\LunchMenu.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\LunchMenu\bin\Debug\net6.0-windows\LunchMenu.pdb
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.csproj.AssemblyReference.cache
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.LunchMenuForm.resources
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.csproj.GenerateResource.cache
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.AssemblyInfoInputs.cache
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.AssemblyInfo.cs
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.csproj.CoreCompileInputs.cache
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\LunchMenu\obj\Debug\net6.0-windows\refint\LunchMenu.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.pdb
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.genruntimeconfig.cache
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\LunchMenu\obj\Debug\net6.0-windows\ref\LunchMenu.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\bin\Debug\net6.0-windows\LunchMenu.exe
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\bin\Debug\net6.0-windows\LunchMenu.deps.json
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\bin\Debug\net6.0-windows\LunchMenu.runtimeconfig.json
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\bin\Debug\net6.0-windows\LunchMenu.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\bin\Debug\net6.0-windows\LunchMenu.pdb
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.csproj.AssemblyReference.cache
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.LunchMenuForm.resources
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.csproj.GenerateResource.cache
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.AssemblyInfoInputs.cache
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.AssemblyInfo.cs
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.csproj.CoreCompileInputs.cache
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\obj\Debug\net6.0-windows\refint\LunchMenu.dll
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.pdb
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\obj\Debug\net6.0-windows\LunchMenu.genruntimeconfig.cache
+C:\Users\james\Documents\GitHub\class2022\CPRG-200-A Rapid Application Development\Lab1\LunchMenu\obj\Debug\net6.0-windows\ref\LunchMenu.dll
